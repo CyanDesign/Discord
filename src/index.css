@@ -83,6 +83,7 @@
   @apply cyan:!rounded-large cyan:!border-none cyan:!use-blur cyan:!shadow-cyan cyan:!bgp-first-layer cyan:p-1 cyan:flex cyan:flex-col cyan:gap-1;
 }
 
+.primary__6af3a,
 .panels_c48ade .lookFilled__201d5.colorBrand__201d5 {
   @apply cyan:btn cyan:!rounded-small
 }
@@ -213,11 +214,13 @@
   content: none !important;
 }
 
+.primary__6af3a,
 .lookFilled__201d5.colorBrand__201d5,
 .botTagRegular__82f07 {
   @apply cyan:bg-accent-500
 }
 
+.primary__6af3a,
 .lookFilled__201d5.colorBrand__201d5 {
   @apply cyan:hover:bg-accent-560 cyan:active:bg-accent-600 cyan:shadow-glass
 }
@@ -295,7 +298,7 @@
   @apply cyan:transition cyan:duration-200 cyan:rounded-medium
 }
 
-.button__201d5 {
+.button__201d5, .button__6af3a {
   @apply cyan:rounded-medium cyan:shadow-glass cyan:use-transition;
   &.lookBlank__201d5:not(:hover) {
     @apply cyan:shadow-none
@@ -746,6 +749,8 @@
   @apply cyan:!bg-accent-500/16 cyan:!text-accent-260
 }
 
+.primary__6af3a:disabled,
+.primary__6af3a[aria-disabled=true],
 .lookFilled__201d5.colorBrand__201d5:disabled,
 .lookFilled__201d5.colorBrand__201d5[aria-disabled=true] {
   @apply cyan:bg-accent-500

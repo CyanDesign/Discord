@@ -7,7 +7,6 @@
   }
   
   .outer_c0bea0.custom-user-profile-theme .inner_c0bea0:before {
-    content: "";
     position: absolute;
     width: calc(100% - .5rem);
     height: calc(100% - 8px);
@@ -56,7 +55,7 @@
     }
   }
   
-  .outer_c0bea0.custom-user-profile-theme .inner_c0bea0 .scrollerBase_d125d2,
+  .container__37bfc,
   .customizationSection_ace4f5 .outer_c0bea0.custom-user-profile-theme .body__5be3e {
     position: relative;
     --profile-gradient-start: color-mix(in oklab,var(--profile-gradient-overlay-color) 100%,var(--profile-gradient-primary-color));
@@ -73,6 +72,7 @@
     @apply cyan:transition cyan:duration-200 cyan:hover:!bg-second-layer-thin-hover cyan:active:!bg-second-layer-thin-active
   }
   
+  .shopScroll__08415.scrollerBase_d125d2,
   .inner_c0bea0 .scrollerBase_d125d2,
   .customizationSection_ace4f5 .outer_c0bea0 .body__5be3e {
     @apply cyan:m-1 cyan:mt-0 cyan:rounded-large cyan:border cyan:border-faint cyan:!bg-second-layer-thin cyan:shadow-glass
